@@ -1,0 +1,27 @@
+# Python / Django
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+db.sqlite3
+backend/staticfiles/
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/build/
+npm-debug.log*
+
+# Env
+.env
+.env.local
+
+# Generated seed data (regenerate from data/source, don't commit)
+backend/apps/seeding/generated/*
+!backend/apps/seeding/generated/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
