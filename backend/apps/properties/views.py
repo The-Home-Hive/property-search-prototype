@@ -1,7 +1,34 @@
 from rest_framework import generics
+from rest_framework.response import Response
+from rest_framework.views import APIView
 
-from .models import Property
-from .serializers import PropertySerializer
+from .models import Amenity, Property
+from .serializers import AmenitySerializer, PropertySerializer
+
+
+class AmenityListView(generics.ListAPIView):
+    """Every amenity offered in the filter panel. IDs are what /properties expects."""
+
+    queryset = Amenity.objects.all().order_by("name")
+    serializer_class = AmenitySerializer
+
+
+class PropertyTypeListView(APIView):
+    """The distinct property types actually present on active listings.
+
+    Property type is a free-text column rather than its own table, so there are
+    no IDs here — the strings returned are exactly what /properties?property_type=
+    matches on.
+    """
+
+    def get(self, request):
+        types = (
+            Property.objects.filter(status="active")
+            .order_by("property_type")
+            .values_list("property_type", flat=True)
+            .distinct()
+        )
+        return Response(list(types))
 
 
 class PropertySearchView(generics.ListAPIView):

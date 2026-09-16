@@ -128,3 +128,18 @@ def test_no_match_returns_empty_200(properties):
     response = search(property_type="Land")
     assert response.status_code == 200
     assert response.data == []
+
+
+def test_amenities_endpoint_lists_all_with_ids(amenities):
+    response = APIClient().get("/amenities")
+    assert response.status_code == 200
+    assert response.data == [
+        {"id": amenities["garden"].id, "name": "Garden"},
+        {"id": amenities["pool"].id, "name": "Pool"},
+    ]
+
+
+def test_property_types_endpoint_lists_distinct_active_types(properties):
+    response = APIClient().get("/property-types")
+    assert response.status_code == 200
+    assert response.data == ["Apartment", "House"]
