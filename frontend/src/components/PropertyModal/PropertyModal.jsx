@@ -1,10 +1,11 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 
 import { fetchProperty } from '../../api/properties.js';
 import { useApiResource } from '../../hooks/useApiResource.js';
 import { formatBathrooms, formatBedrooms, formatPrice } from '../../lib/format.js';
 import ImageCarousel from './ImageCarousel.jsx';
+import { ArrowLeftIcon, HeartIcon, ShareIcon } from './icons.jsx';
 
 /**
  * Detail view for one property, laid out per the wireframe: carousel, title,
@@ -15,6 +16,7 @@ import ImageCarousel from './ImageCarousel.jsx';
  */
 export default function PropertyModal({ property, currencyCode, onClose }) {
   const dialogRef = useRef(null);
+  const [saved, setSaved] = useState(false);
   const { data: detail, loading, error } = useApiResource(
     ({ signal }) => fetchProperty(property.id, { signal }),
     [property.id]
@@ -38,6 +40,16 @@ export default function PropertyModal({ property, currencyCode, onClose }) {
       previouslyFocused?.focus?.();
     };
   }, [onClose]);
+
+  const share = async () => {
+    const data = { title: property.title, text: property.title, url: window.location.href };
+    try {
+      if (navigator.share) await navigator.share(data);
+      else await navigator.clipboard.writeText(`${data.title} — ${data.url}`);
+    } catch {
+      // Dismissed share sheet or blocked clipboard: nothing to recover.
+    }
+  };
 
   const images =
     detail?.images?.length > 0
@@ -69,13 +81,32 @@ export default function PropertyModal({ property, currencyCode, onClose }) {
               <div className="modal__media-empty" aria-hidden="true" />
             )}
 
-            <button type="button" className="modal__icon modal__close" aria-label="Close" onClick={onClose}>
-              ←
+            <button
+              type="button"
+              className="icon-button modal__close"
+              aria-label="Close"
+              onClick={onClose}
+            >
+              <ArrowLeftIcon />
             </button>
-            {/* Share / save appear in the wireframe; visual only for now. */}
-            <div className="modal__actions" aria-hidden="true">
-              <span className="modal__icon">⤴</span>
-              <span className="modal__icon">♡</span>
+            <div className="modal__actions">
+              <button
+                type="button"
+                className="icon-button"
+                aria-label="Share this property"
+                onClick={share}
+              >
+                <ShareIcon />
+              </button>
+              <button
+                type="button"
+                className={`icon-button ${saved ? 'icon-button--active' : ''}`}
+                aria-label={saved ? 'Remove from saved' : 'Save this property'}
+                aria-pressed={saved}
+                onClick={() => setSaved((value) => !value)}
+              >
+                <HeartIcon filled={saved} />
+              </button>
             </div>
           </div>
 
@@ -102,12 +133,21 @@ export default function PropertyModal({ property, currencyCode, onClose }) {
             ) : error ? (
               <p className="notice notice--error">Couldn’t load the full details. {error.message}</p>
             ) : (
-              <p className="modal__description">{detail.description}</p>
+              detail.description && <p className="modal__description">{detail.description}</p>
             )}
           </div>
         </div>
 
         <footer className="modal__footer">
+          <div className="modal__footer-price">
+            <span className="modal__footer-label">
+              {property.listing_type === 'rent' ? 'Rent' : 'Price'}
+            </span>
+            <span className="modal__footer-amount">
+              {formatPrice(property.price, currencyCode)}
+              {property.listing_type === 'rent' && <span className="card__per"> / mo</span>}
+            </span>
+          </div>
           <button type="button" className="modal__cta">
             {property.listing_type === 'rent' ? 'Reserve' : 'Buy'}
           </button>

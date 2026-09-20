@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
+import { ChevronLeftIcon, ChevronRightIcon } from './icons.jsx';
+
 /**
  * Swipeable image strip. Swiping is native horizontal scroll-snap (works with
  * touch, trackpad and drag); the arrows and ←/→ keys scroll the same strip, and
@@ -72,7 +74,7 @@ export default function ImageCarousel({ images, alt }) {
             disabled={index === 0}
             onClick={() => goTo(index - 1)}
           >
-            ‹
+            <ChevronLeftIcon />
           </button>
           <button
             type="button"
@@ -81,9 +83,20 @@ export default function ImageCarousel({ images, alt }) {
             disabled={index === count - 1}
             onClick={() => goTo(index + 1)}
           >
-            ›
+            <ChevronRightIcon />
           </button>
         </>
+      )}
+
+      {count > 1 && (
+        <div className="carousel__dots" aria-hidden="true">
+          {images.map((image, i) => (
+            <span
+              key={image.id ?? image.url}
+              className={`carousel__dot ${i === index ? 'carousel__dot--active' : ''}`}
+            />
+          ))}
+        </div>
       )}
 
       <span className="carousel__count" aria-live="polite">
