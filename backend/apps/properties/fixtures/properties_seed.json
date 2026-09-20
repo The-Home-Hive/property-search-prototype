@@ -1,0 +1,5756 @@
+[
+  {
+    "model": "properties.amenity",
+    "pk": 1,
+    "fields": {
+      "name": "Garden"
+    }
+  },
+  {
+    "model": "properties.amenity",
+    "pk": 2,
+    "fields": {
+      "name": "Parking"
+    }
+  },
+  {
+    "model": "properties.amenity",
+    "pk": 3,
+    "fields": {
+      "name": "Garage"
+    }
+  },
+  {
+    "model": "properties.amenity",
+    "pk": 4,
+    "fields": {
+      "name": "Balcony"
+    }
+  },
+  {
+    "model": "properties.amenity",
+    "pk": 5,
+    "fields": {
+      "name": "Pool"
+    }
+  },
+  {
+    "model": "properties.amenity",
+    "pk": 6,
+    "fields": {
+      "name": "Lift"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 1,
+    "fields": {
+      "town": 29,
+      "listing_type": "rent",
+      "property_type": "Villa",
+      "price": 143000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 2,
+    "fields": {
+      "town": 9,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 139000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 3,
+    "fields": {
+      "town": 57,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 597700000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 4,
+    "fields": {
+      "town": 56,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 274400000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 5,
+    "fields": {
+      "town": 97,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 18750000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 6,
+    "fields": {
+      "town": 21,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 196000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 7,
+    "fields": {
+      "town": 117,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 2340000000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 8,
+    "fields": {
+      "town": 44,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 195000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 9,
+    "fields": {
+      "town": 9,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 100100000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 10,
+    "fields": {
+      "town": 37,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 534700000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 11,
+    "fields": {
+      "town": 93,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 4650000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 12,
+    "fields": {
+      "town": 127,
+      "listing_type": "rent",
+      "property_type": "Villa",
+      "price": 5900000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 13,
+    "fields": {
+      "town": 99,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 1350000000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 14,
+    "fields": {
+      "town": 30,
+      "listing_type": "sale",
+      "property_type": "Office",
+      "price": 251500000,
+      "bedrooms": 0,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 15,
+    "fields": {
+      "town": 68,
+      "listing_type": "rent",
+      "property_type": "Studio Apartment",
+      "price": 93000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 16,
+    "fields": {
+      "town": 96,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 17100000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 17,
+    "fields": {
+      "town": 79,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 476000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 18,
+    "fields": {
+      "town": 122,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 6050000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 19,
+    "fields": {
+      "town": 103,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 1450000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 20,
+    "fields": {
+      "town": 142,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 300000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 21,
+    "fields": {
+      "town": 9,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 195600000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 22,
+    "fields": {
+      "town": 147,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 2980000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 23,
+    "fields": {
+      "town": 106,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 400000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 24,
+    "fields": {
+      "town": 26,
+      "listing_type": "rent",
+      "property_type": "Studio Apartment",
+      "price": 179000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 25,
+    "fields": {
+      "town": 47,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 673500000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 26,
+    "fields": {
+      "town": 24,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 240000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 27,
+    "fields": {
+      "town": 100,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 2300000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 28,
+    "fields": {
+      "town": 74,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 521600000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 29,
+    "fields": {
+      "town": 56,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 266000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 30,
+    "fields": {
+      "town": 41,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 81000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 31,
+    "fields": {
+      "town": 48,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 335000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 32,
+    "fields": {
+      "town": 21,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 392400000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 33,
+    "fields": {
+      "town": 34,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 754500000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 34,
+    "fields": {
+      "town": 68,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 479000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 35,
+    "fields": {
+      "town": 63,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 309300000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 36,
+    "fields": {
+      "town": 142,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 1125000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 37,
+    "fields": {
+      "town": 35,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 127100000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 38,
+    "fields": {
+      "town": 53,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 202600000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 39,
+    "fields": {
+      "town": 34,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 311500000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 40,
+    "fields": {
+      "town": 39,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 286000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 41,
+    "fields": {
+      "town": 94,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 5700000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 42,
+    "fields": {
+      "town": 64,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 275000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 43,
+    "fields": {
+      "town": 7,
+      "listing_type": "rent",
+      "property_type": "Villa",
+      "price": 176000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 44,
+    "fields": {
+      "town": 98,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 5850000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 45,
+    "fields": {
+      "town": 118,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 5250000000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 46,
+    "fields": {
+      "town": 72,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 156000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 47,
+    "fields": {
+      "town": 131,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 5720000000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 48,
+    "fields": {
+      "town": 28,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 574100000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 49,
+    "fields": {
+      "town": 148,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 4550000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 50,
+    "fields": {
+      "town": 94,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 1900000000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 51,
+    "fields": {
+      "town": 105,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 900000000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 52,
+    "fields": {
+      "town": 141,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 1650000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 53,
+    "fields": {
+      "town": 131,
+      "listing_type": "sale",
+      "property_type": "Office",
+      "price": 7340000000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 54,
+    "fields": {
+      "town": 73,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 798100000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 55,
+    "fields": {
+      "town": 63,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 556600000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 56,
+    "fields": {
+      "town": 127,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 4135000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 57,
+    "fields": {
+      "town": 133,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 1815000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 58,
+    "fields": {
+      "town": 82,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 511800000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 59,
+    "fields": {
+      "town": 116,
+      "listing_type": "sale",
+      "property_type": "Villa",
+      "price": 2550000000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 60,
+    "fields": {
+      "town": 20,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 249000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 61,
+    "fields": {
+      "town": 40,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 207000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 62,
+    "fields": {
+      "town": 100,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 16800000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 63,
+    "fields": {
+      "town": 98,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 1050000000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 64,
+    "fields": {
+      "town": 57,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 66400000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 65,
+    "fields": {
+      "town": 33,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 291000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 66,
+    "fields": {
+      "town": 7,
+      "listing_type": "rent",
+      "property_type": "Bungalow",
+      "price": 104000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 67,
+    "fields": {
+      "town": 117,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 6125000000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 68,
+    "fields": {
+      "town": 5,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 183000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 69,
+    "fields": {
+      "town": 18,
+      "listing_type": "rent",
+      "property_type": "Villa",
+      "price": 556000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 70,
+    "fields": {
+      "town": 30,
+      "listing_type": "rent",
+      "property_type": "Studio Apartment",
+      "price": 147000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 71,
+    "fields": {
+      "town": 28,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 283000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 72,
+    "fields": {
+      "town": 97,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 700000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 73,
+    "fields": {
+      "town": 63,
+      "listing_type": "rent",
+      "property_type": "Bungalow",
+      "price": 165000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 74,
+    "fields": {
+      "town": 137,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 920000000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 75,
+    "fields": {
+      "town": 111,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 2500000000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 76,
+    "fields": {
+      "town": 120,
+      "listing_type": "sale",
+      "property_type": "Office",
+      "price": 3705000000,
+      "bedrooms": 0,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 77,
+    "fields": {
+      "town": 63,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 469200000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 78,
+    "fields": {
+      "town": 55,
+      "listing_type": "sale",
+      "property_type": "Office",
+      "price": 251600000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 79,
+    "fields": {
+      "town": 133,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 4600000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 80,
+    "fields": {
+      "town": 115,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 5850000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 81,
+    "fields": {
+      "town": 136,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 4820000000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 82,
+    "fields": {
+      "town": 60,
+      "listing_type": "rent",
+      "property_type": "Villa",
+      "price": 170000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 83,
+    "fields": {
+      "town": 124,
+      "listing_type": "sale",
+      "property_type": "Villa",
+      "price": 7730000000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 84,
+    "fields": {
+      "town": 50,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 165300000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 85,
+    "fields": {
+      "town": 142,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 1245000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 86,
+    "fields": {
+      "town": 113,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 350000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 87,
+    "fields": {
+      "town": 14,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 276000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 88,
+    "fields": {
+      "town": 107,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 8400000,
+      "bedrooms": 0,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 89,
+    "fields": {
+      "town": 110,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 400000000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 90,
+    "fields": {
+      "town": 68,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 118000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 91,
+    "fields": {
+      "town": 75,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 353000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 92,
+    "fields": {
+      "town": 51,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 188700000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 93,
+    "fields": {
+      "town": 43,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 613700000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 94,
+    "fields": {
+      "town": 70,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 415800000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 95,
+    "fields": {
+      "town": 59,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 333000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 96,
+    "fields": {
+      "town": 69,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 118000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 97,
+    "fields": {
+      "town": 112,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 1350000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 98,
+    "fields": {
+      "town": 105,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 500000000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 99,
+    "fields": {
+      "town": 141,
+      "listing_type": "rent",
+      "property_type": "Studio Apartment",
+      "price": 2150000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 100,
+    "fields": {
+      "town": 139,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 1525000000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 101,
+    "fields": {
+      "town": 69,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 220000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 102,
+    "fields": {
+      "town": 125,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 3950000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 103,
+    "fields": {
+      "town": 24,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 511000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 104,
+    "fields": {
+      "town": 119,
+      "listing_type": "rent",
+      "property_type": "Bungalow",
+      "price": 1400000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 105,
+    "fields": {
+      "town": 121,
+      "listing_type": "rent",
+      "property_type": "Studio Apartment",
+      "price": 1350000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 106,
+    "fields": {
+      "town": 88,
+      "listing_type": "sale",
+      "property_type": "Office",
+      "price": 900000000,
+      "bedrooms": 0,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 107,
+    "fields": {
+      "town": 115,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 1550000000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 108,
+    "fields": {
+      "town": 62,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 563400000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 109,
+    "fields": {
+      "town": 127,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 7450000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 110,
+    "fields": {
+      "town": 4,
+      "listing_type": "rent",
+      "property_type": "Studio Apartment",
+      "price": 324000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 111,
+    "fields": {
+      "town": 21,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 654400000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 112,
+    "fields": {
+      "town": 98,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 2750000000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 113,
+    "fields": {
+      "town": 74,
+      "listing_type": "rent",
+      "property_type": "Villa",
+      "price": 218000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 114,
+    "fields": {
+      "town": 43,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 83500000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 115,
+    "fields": {
+      "town": 15,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 304700000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 116,
+    "fields": {
+      "town": 45,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 197000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 117,
+    "fields": {
+      "town": 66,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 38000000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 118,
+    "fields": {
+      "town": 89,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 1200000000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 119,
+    "fields": {
+      "town": 124,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 3600000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 120,
+    "fields": {
+      "town": 102,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 2650000000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 121,
+    "fields": {
+      "town": 57,
+      "listing_type": "rent",
+      "property_type": "Bungalow",
+      "price": 336000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 122,
+    "fields": {
+      "town": 25,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 221000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 123,
+    "fields": {
+      "town": 76,
+      "listing_type": "sale",
+      "property_type": "Villa",
+      "price": 163300000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 124,
+    "fields": {
+      "town": 70,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 432000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 125,
+    "fields": {
+      "town": 120,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 7500000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 126,
+    "fields": {
+      "town": 94,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 1650000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 127,
+    "fields": {
+      "town": 95,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 2450000000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 128,
+    "fields": {
+      "town": 84,
+      "listing_type": "rent",
+      "property_type": "Bungalow",
+      "price": 313000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 129,
+    "fields": {
+      "town": 10,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 132400000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 130,
+    "fields": {
+      "town": 61,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 192000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 131,
+    "fields": {
+      "town": 107,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 13050000,
+      "bedrooms": 0,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 132,
+    "fields": {
+      "town": 95,
+      "listing_type": "rent",
+      "property_type": "Studio Apartment",
+      "price": 23850000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 133,
+    "fields": {
+      "town": 92,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 5400000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 134,
+    "fields": {
+      "town": 6,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 143000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 135,
+    "fields": {
+      "town": 56,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 108000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 136,
+    "fields": {
+      "town": 29,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 187000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 137,
+    "fields": {
+      "town": 33,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 535300000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 138,
+    "fields": {
+      "town": 129,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 750000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 139,
+    "fields": {
+      "town": 134,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 7425000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 140,
+    "fields": {
+      "town": 114,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 7500000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 141,
+    "fields": {
+      "town": 38,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 307000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 142,
+    "fields": {
+      "town": 136,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 3790000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 143,
+    "fields": {
+      "town": 111,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 1200000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 144,
+    "fields": {
+      "town": 117,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 1080000000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 145,
+    "fields": {
+      "town": 122,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 1050000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 146,
+    "fields": {
+      "town": 143,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 3500000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 147,
+    "fields": {
+      "town": 109,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 12750000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 148,
+    "fields": {
+      "town": 91,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 5700000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 149,
+    "fields": {
+      "town": 143,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 1955000000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 150,
+    "fields": {
+      "town": 69,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 351000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 151,
+    "fields": {
+      "town": 145,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 4780000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 152,
+    "fields": {
+      "town": 117,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 2120000000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 153,
+    "fields": {
+      "town": 21,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 300600000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 154,
+    "fields": {
+      "town": 30,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 219900000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 155,
+    "fields": {
+      "town": 102,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 7050000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 156,
+    "fields": {
+      "town": 2,
+      "listing_type": "sale",
+      "property_type": "Villa",
+      "price": 163400000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 157,
+    "fields": {
+      "town": 19,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 80100000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 158,
+    "fields": {
+      "town": 5,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 657800000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 159,
+    "fields": {
+      "town": 148,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 4530000000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 160,
+    "fields": {
+      "town": 84,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 304000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 161,
+    "fields": {
+      "town": 112,
+      "listing_type": "sale",
+      "property_type": "Townhouse",
+      "price": 1150000000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 162,
+    "fields": {
+      "town": 20,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 125000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 163,
+    "fields": {
+      "town": 38,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 418900000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 164,
+    "fields": {
+      "town": 145,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 3935000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 165,
+    "fields": {
+      "town": 39,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 311800000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 166,
+    "fields": {
+      "town": 80,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 92800000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 167,
+    "fields": {
+      "town": 142,
+      "listing_type": "rent",
+      "property_type": "Studio Apartment",
+      "price": 5400000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 168,
+    "fields": {
+      "town": 116,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 18900000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 169,
+    "fields": {
+      "town": 45,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 220000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 170,
+    "fields": {
+      "town": 73,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 250400000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 171,
+    "fields": {
+      "town": 25,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 515700000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 172,
+    "fields": {
+      "town": 37,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 459600000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 173,
+    "fields": {
+      "town": 85,
+      "listing_type": "rent",
+      "property_type": "Bungalow",
+      "price": 18750000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 174,
+    "fields": {
+      "town": 109,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 950000000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 175,
+    "fields": {
+      "town": 40,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 405000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 176,
+    "fields": {
+      "town": 97,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 18750000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 177,
+    "fields": {
+      "town": 94,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 12900000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 178,
+    "fields": {
+      "town": 115,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 7200000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 179,
+    "fields": {
+      "town": 129,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 5450000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 180,
+    "fields": {
+      "town": 36,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 335900000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 181,
+    "fields": {
+      "town": 22,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 503000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 182,
+    "fields": {
+      "town": 14,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 194400000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 183,
+    "fields": {
+      "town": 86,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 6900000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 184,
+    "fields": {
+      "town": 21,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 440000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 185,
+    "fields": {
+      "town": 78,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 212000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 186,
+    "fields": {
+      "town": 132,
+      "listing_type": "rent",
+      "property_type": "Villa",
+      "price": 2000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 187,
+    "fields": {
+      "town": 135,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 3290000000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 188,
+    "fields": {
+      "town": 12,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 203900000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 189,
+    "fields": {
+      "town": 5,
+      "listing_type": "sale",
+      "property_type": "Office",
+      "price": 254100000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 190,
+    "fields": {
+      "town": 86,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 11550000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 191,
+    "fields": {
+      "town": 47,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 397000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 192,
+    "fields": {
+      "town": 52,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 168000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 193,
+    "fields": {
+      "town": 49,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 568600000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 194,
+    "fields": {
+      "town": 99,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 1400000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 195,
+    "fields": {
+      "town": 128,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 3250000000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 196,
+    "fields": {
+      "town": 22,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 419000000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 197,
+    "fields": {
+      "town": 84,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 419100000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 198,
+    "fields": {
+      "town": 91,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 3500000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 199,
+    "fields": {
+      "town": 8,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 336000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 200,
+    "fields": {
+      "town": 113,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 6000000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 201,
+    "fields": {
+      "town": 116,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 2200000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 202,
+    "fields": {
+      "town": 72,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 48000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 203,
+    "fields": {
+      "town": 48,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 729000000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 204,
+    "fields": {
+      "town": 126,
+      "listing_type": "rent",
+      "property_type": "House",
+      "price": 5800000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 205,
+    "fields": {
+      "town": 89,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 6900000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 206,
+    "fields": {
+      "town": 58,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 408000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 207,
+    "fields": {
+      "town": 61,
+      "listing_type": "sale",
+      "property_type": "House",
+      "price": 384600000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 208,
+    "fields": {
+      "town": 17,
+      "listing_type": "sale",
+      "property_type": "Apartment",
+      "price": 509700000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 209,
+    "fields": {
+      "town": 33,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 316600000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 210,
+    "fields": {
+      "town": 34,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 665500000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 211,
+    "fields": {
+      "town": 58,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 360800000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 212,
+    "fields": {
+      "town": 73,
+      "listing_type": "rent",
+      "property_type": "Apartment",
+      "price": 313000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 213,
+    "fields": {
+      "town": 24,
+      "listing_type": "rent",
+      "property_type": "Townhouse",
+      "price": 285000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 214,
+    "fields": {
+      "town": 21,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 393000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 215,
+    "fields": {
+      "town": 68,
+      "listing_type": "rent",
+      "property_type": "Office",
+      "price": 211000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 216,
+    "fields": {
+      "town": 140,
+      "listing_type": "sale",
+      "property_type": "Bungalow",
+      "price": 2070000000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 217,
+    "fields": {
+      "town": 41,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 325600000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 218,
+    "fields": {
+      "town": 34,
+      "listing_type": "sale",
+      "property_type": "Studio Apartment",
+      "price": 126600000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "furnished": true,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 219,
+    "fields": {
+      "town": 13,
+      "listing_type": "sale",
+      "property_type": "Land",
+      "price": 660400000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 220,
+    "fields": {
+      "town": 108,
+      "listing_type": "rent",
+      "property_type": "Land",
+      "price": 21450000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "furnished": false,
+      "status": "active"
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 1,
+    "fields": {
+      "property": 1,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 2,
+    "fields": {
+      "property": 1,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 3,
+    "fields": {
+      "property": 1,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 4,
+    "fields": {
+      "property": 2,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 5,
+    "fields": {
+      "property": 2,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 6,
+    "fields": {
+      "property": 2,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 7,
+    "fields": {
+      "property": 3,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 8,
+    "fields": {
+      "property": 4,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 9,
+    "fields": {
+      "property": 4,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 10,
+    "fields": {
+      "property": 4,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 11,
+    "fields": {
+      "property": 5,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 12,
+    "fields": {
+      "property": 5,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 13,
+    "fields": {
+      "property": 5,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 14,
+    "fields": {
+      "property": 7,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 15,
+    "fields": {
+      "property": 7,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 16,
+    "fields": {
+      "property": 8,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 17,
+    "fields": {
+      "property": 8,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 18,
+    "fields": {
+      "property": 9,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 19,
+    "fields": {
+      "property": 9,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 20,
+    "fields": {
+      "property": 10,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 21,
+    "fields": {
+      "property": 10,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 22,
+    "fields": {
+      "property": 12,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 23,
+    "fields": {
+      "property": 12,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 24,
+    "fields": {
+      "property": 14,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 25,
+    "fields": {
+      "property": 14,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 26,
+    "fields": {
+      "property": 15,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 27,
+    "fields": {
+      "property": 15,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 28,
+    "fields": {
+      "property": 16,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 29,
+    "fields": {
+      "property": 16,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 30,
+    "fields": {
+      "property": 17,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 31,
+    "fields": {
+      "property": 17,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 32,
+    "fields": {
+      "property": 17,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 33,
+    "fields": {
+      "property": 18,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 34,
+    "fields": {
+      "property": 18,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 35,
+    "fields": {
+      "property": 18,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 36,
+    "fields": {
+      "property": 19,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 37,
+    "fields": {
+      "property": 22,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 38,
+    "fields": {
+      "property": 22,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 39,
+    "fields": {
+      "property": 24,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 40,
+    "fields": {
+      "property": 24,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 41,
+    "fields": {
+      "property": 25,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 42,
+    "fields": {
+      "property": 25,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 43,
+    "fields": {
+      "property": 25,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 44,
+    "fields": {
+      "property": 26,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 45,
+    "fields": {
+      "property": 28,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 46,
+    "fields": {
+      "property": 29,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 47,
+    "fields": {
+      "property": 29,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 48,
+    "fields": {
+      "property": 31,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 49,
+    "fields": {
+      "property": 31,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 50,
+    "fields": {
+      "property": 31,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 51,
+    "fields": {
+      "property": 32,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 52,
+    "fields": {
+      "property": 32,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 53,
+    "fields": {
+      "property": 32,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 54,
+    "fields": {
+      "property": 33,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 55,
+    "fields": {
+      "property": 33,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 56,
+    "fields": {
+      "property": 33,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 57,
+    "fields": {
+      "property": 33,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 58,
+    "fields": {
+      "property": 35,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 59,
+    "fields": {
+      "property": 35,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 60,
+    "fields": {
+      "property": 35,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 61,
+    "fields": {
+      "property": 35,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 62,
+    "fields": {
+      "property": 37,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 63,
+    "fields": {
+      "property": 37,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 64,
+    "fields": {
+      "property": 38,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 65,
+    "fields": {
+      "property": 38,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 66,
+    "fields": {
+      "property": 38,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 67,
+    "fields": {
+      "property": 40,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 68,
+    "fields": {
+      "property": 40,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 69,
+    "fields": {
+      "property": 42,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 70,
+    "fields": {
+      "property": 42,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 71,
+    "fields": {
+      "property": 42,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 72,
+    "fields": {
+      "property": 42,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 73,
+    "fields": {
+      "property": 43,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 74,
+    "fields": {
+      "property": 43,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 75,
+    "fields": {
+      "property": 43,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 76,
+    "fields": {
+      "property": 45,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 77,
+    "fields": {
+      "property": 47,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 78,
+    "fields": {
+      "property": 47,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 79,
+    "fields": {
+      "property": 47,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 80,
+    "fields": {
+      "property": 47,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 81,
+    "fields": {
+      "property": 49,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 82,
+    "fields": {
+      "property": 49,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 83,
+    "fields": {
+      "property": 50,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 84,
+    "fields": {
+      "property": 50,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 85,
+    "fields": {
+      "property": 50,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 86,
+    "fields": {
+      "property": 51,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 87,
+    "fields": {
+      "property": 51,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 88,
+    "fields": {
+      "property": 51,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 89,
+    "fields": {
+      "property": 51,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 90,
+    "fields": {
+      "property": 52,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 91,
+    "fields": {
+      "property": 52,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 92,
+    "fields": {
+      "property": 53,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 93,
+    "fields": {
+      "property": 54,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 94,
+    "fields": {
+      "property": 54,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 95,
+    "fields": {
+      "property": 54,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 96,
+    "fields": {
+      "property": 55,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 97,
+    "fields": {
+      "property": 55,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 98,
+    "fields": {
+      "property": 56,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 99,
+    "fields": {
+      "property": 57,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 100,
+    "fields": {
+      "property": 57,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 101,
+    "fields": {
+      "property": 58,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 102,
+    "fields": {
+      "property": 58,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 103,
+    "fields": {
+      "property": 59,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 104,
+    "fields": {
+      "property": 60,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 105,
+    "fields": {
+      "property": 61,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 106,
+    "fields": {
+      "property": 63,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 107,
+    "fields": {
+      "property": 63,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 108,
+    "fields": {
+      "property": 63,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 109,
+    "fields": {
+      "property": 64,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 110,
+    "fields": {
+      "property": 64,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 111,
+    "fields": {
+      "property": 66,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 112,
+    "fields": {
+      "property": 69,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 113,
+    "fields": {
+      "property": 70,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 114,
+    "fields": {
+      "property": 70,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 115,
+    "fields": {
+      "property": 70,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 116,
+    "fields": {
+      "property": 70,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 117,
+    "fields": {
+      "property": 73,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 118,
+    "fields": {
+      "property": 73,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 119,
+    "fields": {
+      "property": 73,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 120,
+    "fields": {
+      "property": 74,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 121,
+    "fields": {
+      "property": 74,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 122,
+    "fields": {
+      "property": 75,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 123,
+    "fields": {
+      "property": 75,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 124,
+    "fields": {
+      "property": 75,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 125,
+    "fields": {
+      "property": 76,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 126,
+    "fields": {
+      "property": 76,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 127,
+    "fields": {
+      "property": 76,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 128,
+    "fields": {
+      "property": 77,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 129,
+    "fields": {
+      "property": 78,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 130,
+    "fields": {
+      "property": 78,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 131,
+    "fields": {
+      "property": 78,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 132,
+    "fields": {
+      "property": 79,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 133,
+    "fields": {
+      "property": 79,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 134,
+    "fields": {
+      "property": 80,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 135,
+    "fields": {
+      "property": 80,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 136,
+    "fields": {
+      "property": 81,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 137,
+    "fields": {
+      "property": 82,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 138,
+    "fields": {
+      "property": 82,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 139,
+    "fields": {
+      "property": 84,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 140,
+    "fields": {
+      "property": 85,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 141,
+    "fields": {
+      "property": 85,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 142,
+    "fields": {
+      "property": 86,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 143,
+    "fields": {
+      "property": 86,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 144,
+    "fields": {
+      "property": 88,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 145,
+    "fields": {
+      "property": 89,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 146,
+    "fields": {
+      "property": 90,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 147,
+    "fields": {
+      "property": 90,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 148,
+    "fields": {
+      "property": 91,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 149,
+    "fields": {
+      "property": 93,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 150,
+    "fields": {
+      "property": 93,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 151,
+    "fields": {
+      "property": 94,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 152,
+    "fields": {
+      "property": 96,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 153,
+    "fields": {
+      "property": 96,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 154,
+    "fields": {
+      "property": 98,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 155,
+    "fields": {
+      "property": 98,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 156,
+    "fields": {
+      "property": 99,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 157,
+    "fields": {
+      "property": 99,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 158,
+    "fields": {
+      "property": 100,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 159,
+    "fields": {
+      "property": 100,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 160,
+    "fields": {
+      "property": 102,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 161,
+    "fields": {
+      "property": 102,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 162,
+    "fields": {
+      "property": 104,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 163,
+    "fields": {
+      "property": 105,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 164,
+    "fields": {
+      "property": 105,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 165,
+    "fields": {
+      "property": 105,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 166,
+    "fields": {
+      "property": 106,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 167,
+    "fields": {
+      "property": 106,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 168,
+    "fields": {
+      "property": 106,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 169,
+    "fields": {
+      "property": 107,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 170,
+    "fields": {
+      "property": 108,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 171,
+    "fields": {
+      "property": 108,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 172,
+    "fields": {
+      "property": 108,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 173,
+    "fields": {
+      "property": 109,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 174,
+    "fields": {
+      "property": 109,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 175,
+    "fields": {
+      "property": 110,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 176,
+    "fields": {
+      "property": 110,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 177,
+    "fields": {
+      "property": 110,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 178,
+    "fields": {
+      "property": 110,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 179,
+    "fields": {
+      "property": 115,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 180,
+    "fields": {
+      "property": 115,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 181,
+    "fields": {
+      "property": 116,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 182,
+    "fields": {
+      "property": 116,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 183,
+    "fields": {
+      "property": 117,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 184,
+    "fields": {
+      "property": 118,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 185,
+    "fields": {
+      "property": 119,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 186,
+    "fields": {
+      "property": 120,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 187,
+    "fields": {
+      "property": 120,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 188,
+    "fields": {
+      "property": 120,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 189,
+    "fields": {
+      "property": 123,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 190,
+    "fields": {
+      "property": 124,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 191,
+    "fields": {
+      "property": 125,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 192,
+    "fields": {
+      "property": 127,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 193,
+    "fields": {
+      "property": 127,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 194,
+    "fields": {
+      "property": 128,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 195,
+    "fields": {
+      "property": 128,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 196,
+    "fields": {
+      "property": 130,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 197,
+    "fields": {
+      "property": 130,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 198,
+    "fields": {
+      "property": 132,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 199,
+    "fields": {
+      "property": 133,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 200,
+    "fields": {
+      "property": 134,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 201,
+    "fields": {
+      "property": 134,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 202,
+    "fields": {
+      "property": 134,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 203,
+    "fields": {
+      "property": 135,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 204,
+    "fields": {
+      "property": 135,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 205,
+    "fields": {
+      "property": 135,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 206,
+    "fields": {
+      "property": 135,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 207,
+    "fields": {
+      "property": 136,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 208,
+    "fields": {
+      "property": 137,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 209,
+    "fields": {
+      "property": 137,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 210,
+    "fields": {
+      "property": 139,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 211,
+    "fields": {
+      "property": 139,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 212,
+    "fields": {
+      "property": 141,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 213,
+    "fields": {
+      "property": 142,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 214,
+    "fields": {
+      "property": 142,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 215,
+    "fields": {
+      "property": 144,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 216,
+    "fields": {
+      "property": 145,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 217,
+    "fields": {
+      "property": 146,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 218,
+    "fields": {
+      "property": 149,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 219,
+    "fields": {
+      "property": 149,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 220,
+    "fields": {
+      "property": 149,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 221,
+    "fields": {
+      "property": 149,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 222,
+    "fields": {
+      "property": 150,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 223,
+    "fields": {
+      "property": 151,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 224,
+    "fields": {
+      "property": 152,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 225,
+    "fields": {
+      "property": 152,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 226,
+    "fields": {
+      "property": 152,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 227,
+    "fields": {
+      "property": 153,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 228,
+    "fields": {
+      "property": 154,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 229,
+    "fields": {
+      "property": 154,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 230,
+    "fields": {
+      "property": 155,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 231,
+    "fields": {
+      "property": 156,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 232,
+    "fields": {
+      "property": 156,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 233,
+    "fields": {
+      "property": 160,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 234,
+    "fields": {
+      "property": 160,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 235,
+    "fields": {
+      "property": 160,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 236,
+    "fields": {
+      "property": 160,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 237,
+    "fields": {
+      "property": 161,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 238,
+    "fields": {
+      "property": 162,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 239,
+    "fields": {
+      "property": 162,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 240,
+    "fields": {
+      "property": 162,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 241,
+    "fields": {
+      "property": 163,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 242,
+    "fields": {
+      "property": 163,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 243,
+    "fields": {
+      "property": 163,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 244,
+    "fields": {
+      "property": 165,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 245,
+    "fields": {
+      "property": 166,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 246,
+    "fields": {
+      "property": 166,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 247,
+    "fields": {
+      "property": 166,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 248,
+    "fields": {
+      "property": 166,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 249,
+    "fields": {
+      "property": 167,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 250,
+    "fields": {
+      "property": 167,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 251,
+    "fields": {
+      "property": 169,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 252,
+    "fields": {
+      "property": 170,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 253,
+    "fields": {
+      "property": 170,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 254,
+    "fields": {
+      "property": 171,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 255,
+    "fields": {
+      "property": 172,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 256,
+    "fields": {
+      "property": 172,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 257,
+    "fields": {
+      "property": 172,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 258,
+    "fields": {
+      "property": 174,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 259,
+    "fields": {
+      "property": 174,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 260,
+    "fields": {
+      "property": 175,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 261,
+    "fields": {
+      "property": 175,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 262,
+    "fields": {
+      "property": 175,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 263,
+    "fields": {
+      "property": 178,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 264,
+    "fields": {
+      "property": 178,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 265,
+    "fields": {
+      "property": 178,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 266,
+    "fields": {
+      "property": 178,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 267,
+    "fields": {
+      "property": 180,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 268,
+    "fields": {
+      "property": 180,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 269,
+    "fields": {
+      "property": 180,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 270,
+    "fields": {
+      "property": 181,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 271,
+    "fields": {
+      "property": 181,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 272,
+    "fields": {
+      "property": 181,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 273,
+    "fields": {
+      "property": 181,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 274,
+    "fields": {
+      "property": 182,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 275,
+    "fields": {
+      "property": 183,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 276,
+    "fields": {
+      "property": 183,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 277,
+    "fields": {
+      "property": 183,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 278,
+    "fields": {
+      "property": 184,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 279,
+    "fields": {
+      "property": 184,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 280,
+    "fields": {
+      "property": 185,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 281,
+    "fields": {
+      "property": 185,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 282,
+    "fields": {
+      "property": 185,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 283,
+    "fields": {
+      "property": 186,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 284,
+    "fields": {
+      "property": 186,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 285,
+    "fields": {
+      "property": 187,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 286,
+    "fields": {
+      "property": 189,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 287,
+    "fields": {
+      "property": 189,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 288,
+    "fields": {
+      "property": 190,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 289,
+    "fields": {
+      "property": 190,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 290,
+    "fields": {
+      "property": 193,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 291,
+    "fields": {
+      "property": 193,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 292,
+    "fields": {
+      "property": 193,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 293,
+    "fields": {
+      "property": 197,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 294,
+    "fields": {
+      "property": 198,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 295,
+    "fields": {
+      "property": 198,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 296,
+    "fields": {
+      "property": 200,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 297,
+    "fields": {
+      "property": 200,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 298,
+    "fields": {
+      "property": 200,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 299,
+    "fields": {
+      "property": 200,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 300,
+    "fields": {
+      "property": 201,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 301,
+    "fields": {
+      "property": 203,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 302,
+    "fields": {
+      "property": 203,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 303,
+    "fields": {
+      "property": 203,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 304,
+    "fields": {
+      "property": 204,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 305,
+    "fields": {
+      "property": 204,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 306,
+    "fields": {
+      "property": 205,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 307,
+    "fields": {
+      "property": 205,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 308,
+    "fields": {
+      "property": 205,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 309,
+    "fields": {
+      "property": 205,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 310,
+    "fields": {
+      "property": 207,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 311,
+    "fields": {
+      "property": 207,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 312,
+    "fields": {
+      "property": 208,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 313,
+    "fields": {
+      "property": 208,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 314,
+    "fields": {
+      "property": 209,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 315,
+    "fields": {
+      "property": 209,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 316,
+    "fields": {
+      "property": 209,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 317,
+    "fields": {
+      "property": 210,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 318,
+    "fields": {
+      "property": 212,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 319,
+    "fields": {
+      "property": 213,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 320,
+    "fields": {
+      "property": 213,
+      "amenity": 5
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 321,
+    "fields": {
+      "property": 213,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 322,
+    "fields": {
+      "property": 213,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 323,
+    "fields": {
+      "property": 216,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 324,
+    "fields": {
+      "property": 216,
+      "amenity": 1
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 325,
+    "fields": {
+      "property": 217,
+      "amenity": 3
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 326,
+    "fields": {
+      "property": 217,
+      "amenity": 6
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 327,
+    "fields": {
+      "property": 217,
+      "amenity": 4
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 328,
+    "fields": {
+      "property": 218,
+      "amenity": 2
+    }
+  },
+  {
+    "model": "properties.propertyamenity",
+    "pk": 329,
+    "fields": {
+      "property": 218,
+      "amenity": 1
+    }
+  }
+]
