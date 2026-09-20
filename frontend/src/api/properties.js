@@ -11,7 +11,7 @@ export function fetchPropertyTypes(options) {
 }
 
 /**
- * GET /properties?[filters] -> [{ id, town, city, country, listing_type,
+ * GET /properties?[filters] -> [{ id, title, primary_image, town, city, country, listing_type,
  * property_type, price, bedrooms, bathrooms, furnished, status, amenities[] }]
  *
  * All filtering is the backend's job: each parameter present becomes another
@@ -30,4 +30,13 @@ export function searchProperties(filters, options) {
     { ...rest, amenities: amenityIds.length ? amenityIds.join(',') : '' },
     options
   );
+}
+
+/**
+ * GET /properties/:id -> the search-result shape plus { description,
+ * images: [{ id, url, sort_order, is_primary }] } with images already ordered
+ * for the carousel. 404s for inactive or unknown ids.
+ */
+export function fetchProperty(id, options) {
+  return get(`properties/${id}`, {}, options);
 }

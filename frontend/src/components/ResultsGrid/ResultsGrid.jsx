@@ -1,4 +1,7 @@
 import PropertyCard from './PropertyCard.jsx';
+import PropertyCardSkeleton from './PropertyCardSkeleton.jsx';
+
+const SKELETON_COUNT = 6;
 
 /**
  * The results list and its three non-result states.
@@ -24,7 +27,13 @@ export default function ResultsGrid({ properties, loading, error, currencyCode, 
         </h2>
       </header>
 
-      {!loading && properties.length === 0 ? (
+      {loading ? (
+        <div className="results__grid">
+          {Array.from({ length: SKELETON_COUNT }, (_, i) => (
+            <PropertyCardSkeleton key={i} />
+          ))}
+        </div>
+      ) : properties.length === 0 ? (
         <div className="empty-state">
           <p className="empty-state__title">No properties found</p>
           <p className="empty-state__body">
@@ -36,9 +45,14 @@ export default function ResultsGrid({ properties, loading, error, currencyCode, 
           </button>
         </div>
       ) : (
-        <div className={`results__grid ${loading ? 'results__grid--loading' : ''}`}>
+        <div className="results__grid">
           {properties.map((property) => (
-            <PropertyCard key={property.id} property={property} currencyCode={currencyCode} />
+            <PropertyCard
+              key={property.id}
+              property={property}
+              currencyCode={currencyCode}
+              onOpen={() => {}}
+            />
           ))}
         </div>
       )}
