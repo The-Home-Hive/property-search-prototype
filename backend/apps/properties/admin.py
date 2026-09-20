@@ -1,11 +1,16 @@
 from django.contrib import admin
 
-from .models import Amenity, Property, PropertyAmenity
+from .models import Amenity, Property, PropertyAmenity, PropertyImage
 
 
 class PropertyAmenityInline(admin.TabularInline):
     model = PropertyAmenity
     extra = 1
+
+
+class PropertyImageInline(admin.TabularInline):
+    model = PropertyImage
+    extra = 0
 
 
 @admin.register(Amenity)
@@ -27,4 +32,4 @@ class PropertyAdmin(admin.ModelAdmin):
         "status",
     )
     list_filter = ("listing_type", "property_type", "status", "furnished")
-    inlines = [PropertyAmenityInline]
+    inlines = [PropertyAmenityInline, PropertyImageInline]
