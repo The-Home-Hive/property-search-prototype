@@ -8,12 +8,13 @@ from django.utils.text import slugify
 from apps.properties.models import Property, PropertyImage
 
 IMAGES_PER_TYPE = 3
+IMAGE_EXTENSION = "jpg"
 
 
 class Command(BaseCommand):
     help = (
-        "Gives every property 2-3 property_image rows pointing at the shared "
-        "per-type placeholders in backend/resources/media/properties/<type>/. "
+        "Gives every property a property_image row per photo in the shared "
+        "per-type set at backend/resources/media/properties/<type>/{1,2,3}.jpg. "
         "Idempotent: rebuilds each property's rows from scratch."
     )
 
@@ -25,20 +26,17 @@ class Command(BaseCommand):
         for prop in Property.objects.all().order_by("id"):
             slug = slugify(prop.property_type)
             available = [
-                f"properties/{slug}/{n}.svg"
+                f"properties/{slug}/{n}.{IMAGE_EXTENSION}"
                 for n in range(1, IMAGES_PER_TYPE + 1)
-                if (media_root / "properties" / slug / f"{n}.svg").exists()
+                if (media_root / "properties" / slug / f"{n}.{IMAGE_EXTENSION}").exists()
             ]
             if not available:
                 raise CommandError(
-                    f"No placeholder images for property type {prop.property_type!r} "
+                    f"No images for property type {prop.property_type!r} "
                     f"(expected under {media_root / 'properties' / slug})"
                 )
-            # Deterministic 2 or 3 images per property (never fewer than 2 when
-            # the pool has them), so the carousel exercises both counts.
-            count = 2 + (prop.id % 2) if len(available) >= 3 else len(available)
             property_ids.append(prop.id)
-            for order, path in enumerate(available[:count]):
+            for order, path in enumerate(available):
                 rows.append(
                     PropertyImage(
                         property=prop, file_path=path, sort_order=order, is_primary=order == 0
