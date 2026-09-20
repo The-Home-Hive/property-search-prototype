@@ -17,3 +17,11 @@ matches.
 Search has no ranking or scoring — every optional filter parameter that's present gets appended as a `WHERE`/join condition; a property matches only if it satisfies all of them. See technical-design.pdf section 3 for the exact query shape and section 4 for the indexing strategy (composite index on `town_id, listing_type, price`, plus separate indexes on `property_type`/`bedrooms` and the `property_amenity` FK pair).
 
 Seed data here is fictional test properties spanning all three countries — used to prove filter combinations work, not real listings.
+
+## Images and descriptions
+
+- `property_image` (model `PropertyImage`) holds 2-3 rows per property: `file_path` (relative to `MEDIA_ROOT`), `sort_order`, `is_primary`. The card uses the `is_primary` row (else the lowest `sort_order`); the modal carousel uses all rows ordered by `sort_order`.
+- Files live in `backend/resources/media/properties/<type-slug>/{1,2,3}.svg` — one shared set of placeholders per property type. Regenerate with `python backend/scripts/generate_placeholder_images.py`. Swapping in real photos later is a file (and `file_path`) change only.
+- Django serves them at `/media/` when `DEBUG` is on; `MEDIA_ROOT` is configured in `config/settings.py`.
+- `property.description` is nullable; `seed_property_descriptions` fills it (`--force` regenerates). `title` is not stored — it is derived on `Property.title`.
+- API: `GET /properties` adds `title` and `primary_image`; `GET /properties/<id>` adds `description` and `images[]`.
