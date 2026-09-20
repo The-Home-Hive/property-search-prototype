@@ -1,3 +1,6 @@
+import { useCallback, useState } from 'react';
+
+import PropertyModal from '../PropertyModal/PropertyModal.jsx';
 import PropertyCard from './PropertyCard.jsx';
 import PropertyCardSkeleton from './PropertyCardSkeleton.jsx';
 
@@ -11,6 +14,9 @@ const SKELETON_COUNT = 6;
  * screen or a failure message.
  */
 export default function ResultsGrid({ properties, loading, error, currencyCode, onClear }) {
+  const [selected, setSelected] = useState(null);
+  const closeModal = useCallback(() => setSelected(null), []);
+
   if (error) {
     return (
       <p className="notice notice--error">
@@ -51,10 +57,18 @@ export default function ResultsGrid({ properties, loading, error, currencyCode, 
               key={property.id}
               property={property}
               currencyCode={currencyCode}
-              onOpen={() => {}}
+              onOpen={setSelected}
             />
           ))}
         </div>
+      )}
+
+      {selected && (
+        <PropertyModal
+          property={selected}
+          currencyCode={currencyCode}
+          onClose={closeModal}
+        />
       )}
     </section>
   );
