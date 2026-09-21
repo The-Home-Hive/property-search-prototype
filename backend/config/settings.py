@@ -95,6 +95,21 @@ CORS_ALLOWED_ORIGINS = config(
     default='http://localhost:5173',
     cast=Csv(),
 )
+# Optional regexes for origins that can't be listed up front, e.g. Vercel
+# preview deployments: ^https://property-search-.*\.vercel\.app$
+CORS_ALLOWED_ORIGIN_REGEXES = config('DJANGO_CORS_ALLOWED_ORIGIN_REGEXES', default='', cast=Csv())
+
+# Needed for the admin login over HTTPS, e.g. https://api-vm.tailnet.ts.net
+CSRF_TRUSTED_ORIGINS = config('DJANGO_CSRF_TRUSTED_ORIGINS', default='', cast=Csv())
+
+# In production the API sits behind an HTTPS proxy (Tailscale Funnel) that
+# forwards plain HTTP. Trusting its X-Forwarded-Proto makes
+# request.build_absolute_uri() emit https:// image URLs, which an HTTPS
+# frontend needs — browsers block http:// images as mixed content.
+if config('DJANGO_BEHIND_HTTPS_PROXY', default=False, cast=bool):
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
 
 
 # Password validation
@@ -132,9 +147,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+# `collectstatic` target (admin/DRF assets). Served by WhiteNoise in config/wsgi.py.
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Property images live in the repo under backend/resources/media (see
-# apps/properties/README.md). Served by Django only in DEBUG (config/urls.py).
+# apps/properties/README.md). Served by Django in DEBUG (config/urls.py) and by
+# WhiteNoise in config/wsgi.py otherwise.
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'resources' / 'media'
 
@@ -142,3 +160,16 @@ MEDIA_ROOT = BASE_DIR / 'resources' / 'media'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Logging
+# Django only prints request errors to the console when DEBUG is on; with it
+# off they would be emailed to ADMINS (unset) and lost. Send them to stderr so
+# 500s show up in `journalctl -u property-search`.
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {'console': {'class': 'logging.StreamHandler'}},
+    'root': {'handlers': ['console'], 'level': 'WARNING'},
+}

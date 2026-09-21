@@ -1,0 +1,21 @@
+[Unit]
+Description=Property search API (gunicorn)
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+User=propsearch
+Group=propsearch
+WorkingDirectory=/opt/property-search/backend
+# Settings are read from /opt/property-search/.env by python-decouple.
+# Bound to loopback only: Tailscale Funnel is the sole public entry point.
+ExecStart=/opt/property-search/backend/.venv/bin/gunicorn config.wsgi \
+    --bind 127.0.0.1:8000 \
+    --workers 3 \
+    --access-logfile - \
+    --error-logfile -
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
