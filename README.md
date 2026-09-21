@@ -44,6 +44,7 @@ Full design detail — schema, the search query construction rules, indexing str
 │       ├── api/                  Backend endpoint wrappers
 │       ├── hooks/
 │       └── pages/
+├── deploy/                   Production setup: Vercel + VM (gunicorn, systemd, Tailscale Funnel)
 └── scripts/                  One-off dev/ops scripts
 ```
 
@@ -67,6 +68,10 @@ The client supplied raw reference data — city/town lists and price-dropdown ra
 ## Project status
 
 Currently in the prototype phase described in `docs/requirements/property-search-prototype-overview.pdf`: roughly a two-week build across setup, core build, a review pause, refinement, and handover. This repo structure is the setup-phase deliverable; models, endpoints and components get filled in during core build.
+
+## Deployment
+
+Frontend on Vercel, backend on a LAN VM exposed via Tailscale Funnel — see [`deploy/README.md`](deploy/README.md).
 
 ## Docs
 
