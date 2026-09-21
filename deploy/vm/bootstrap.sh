@@ -10,10 +10,19 @@ APP_DIR=/opt/property-search
 APP_USER=propsearch
 DB_NAME=property_search
 DB_USER=property_search
+# Optional: the Vercel origin(s) to allow, comma-separated, written into .env
+CORS_ORIGINS=${CORS_ORIGINS:-}
+
+# Refuse to clobber anything already on the API port (this may be a shared host).
+if ss -tlnH 'sport = :8000' | grep -q . && ! systemctl is-active -q property-search; then
+    echo "Port 8000 is already in use by another service; aborting." >&2
+    exit 1
+fi
 
 echo "==> Installing system packages"
 apt-get update -qq
-apt-get install -y -qq git python3 python3-venv postgresql curl openssl
+# install only; never upgrade existing packages on a shared host
+apt-get install -y -qq --no-upgrade git python3 python3-venv postgresql curl openssl
 
 echo "==> Creating service user and checkout"
 id -u "$APP_USER" >/dev/null 2>&1 || useradd --system --home "$APP_DIR" --shell /usr/sbin/nologin "$APP_USER"
@@ -44,7 +53,7 @@ DJANGO_DEBUG=False
 DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
 DJANGO_CSRF_TRUSTED_ORIGINS=
 DJANGO_BEHIND_HTTPS_PROXY=True
-DJANGO_CORS_ALLOWED_ORIGINS=
+DJANGO_CORS_ALLOWED_ORIGINS=$CORS_ORIGINS
 DJANGO_CORS_ALLOWED_ORIGIN_REGEXES=
 DATABASE_URL=postgresql://$DB_USER:$DB_PASSWORD@localhost:5432/$DB_NAME
 ENV

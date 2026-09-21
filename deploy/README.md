@@ -22,8 +22,11 @@ internet only.
 
 ```
 curl -fsSLO https://raw.githubusercontent.com/The-Home-Hive/property-search-prototype/main/deploy/vm/bootstrap.sh
-sudo bash bootstrap.sh
+sudo CORS_ORIGINS=https://<project>.vercel.app bash bootstrap.sh
 ```
+
+The script only adds packages (`--no-upgrade`), binds to loopback, and aborts
+if port 8000 is taken, so it is safe alongside other services on the host.
 
 This installs Postgres, clones the repo to `/opt/property-search`, generates
 `/opt/property-search/.env` (random secret key and DB password), runs
@@ -34,7 +37,7 @@ migrations and every seed command in the required order, and starts the
 
 ```
 curl -fsSL https://tailscale.com/install.sh | sh
-sudo tailscale up                        # log in via the printed URL
+sudo tailscale up --accept-dns=false     # log in via the printed URL; leave the host's DNS alone
 sudo tailscale funnel --bg 8000          # first run prints a link to enable Funnel for the tailnet
 tailscale funnel status                  # shows https://<vm>.<tailnet>.ts.net
 ```
