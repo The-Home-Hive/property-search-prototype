@@ -1,9 +1,10 @@
+from django.db.models import Prefetch
 from rest_framework import generics
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import Amenity, Property
-from .serializers import AmenitySerializer, PropertySerializer
+from .models import Amenity, Property, PropertyImage
+from .serializers import AmenitySerializer, PropertyDetailSerializer, PropertySerializer
 
 
 class AmenityListView(generics.ListAPIView):
@@ -31,13 +32,28 @@ class PropertyTypeListView(APIView):
         return Response(list(types))
 
 
+def _with_related(queryset):
+    """Town/city/country, amenities and ordered images, without N+1 queries."""
+    return queryset.select_related("town__city__country").prefetch_related(
+        "amenities",
+        Prefetch("images", queryset=PropertyImage.objects.order_by("sort_order")),
+    )
+
+
+class PropertyDetailView(generics.RetrieveAPIView):
+    """One active property with its description and full ordered image list."""
+
+    serializer_class = PropertyDetailSerializer
+
+    def get_queryset(self):
+        return _with_related(Property.objects.filter(status="active"))
+
+
 class PropertySearchView(generics.ListAPIView):
     serializer_class = PropertySerializer
 
     def get_queryset(self):
-        queryset = Property.objects.filter(status="active").select_related(
-            "town__city__country"
-        )
+        queryset = _with_related(Property.objects.filter(status="active"))
         params = self.request.query_params
 
         if params.get("country"):

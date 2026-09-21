@@ -12,7 +12,9 @@ order **Kenya → Uganda → Tanzania**, each contributing cities/towns in
 exactly what `apps/seeding/parsers/locations_parser.py`'s `COUNTRY_ORDER` does
 — don't change that order without regenerating this fixture.
 
-Load order: `migrate` → `seed_locations` → `seed_prices` → `loaddata properties_seed`.
+Load order: `migrate` → `seed_locations` → `seed_prices` → `loaddata properties_seed` → `seed_property_images` → `seed_property_descriptions`.
+
+The fixture carries no images or descriptions: the last two commands generate them (per-type placeholder images from `backend/resources/media/properties/`, and templated descriptions).
 
 Regenerate with `python manage.py loaddata properties_seed` after truncating
 the `property`/`property_amenity`/`amenity` tables, or by re-running the

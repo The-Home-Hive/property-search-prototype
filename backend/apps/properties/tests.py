@@ -143,3 +143,57 @@ def test_property_types_endpoint_lists_distinct_active_types(properties):
     response = APIClient().get("/property-types")
     assert response.status_code == 200
     assert response.data == ["Apartment", "House"]
+
+
+# --- images, title, description, detail endpoint ---------------------------
+
+
+def test_search_result_includes_title_and_primary_image(properties):
+    from apps.properties.models import PropertyImage
+
+    PropertyImage.objects.create(property=properties["p1"], file_path="properties/apartment/2.svg", sort_order=1)
+    PropertyImage.objects.create(
+        property=properties["p1"], file_path="properties/apartment/1.svg", sort_order=0, is_primary=True
+    )
+    response = APIClient().get("/properties", {"town": properties["p1"].town_id})
+    result = next(r for r in response.json() if r["id"] == properties["p1"].id)
+    assert result["title"] == "3-bedroom Apartment in Westlands, Nairobi"
+    assert result["primary_image"].endswith("/media/properties/apartment/1.svg")
+    assert result["primary_image"].startswith("http")
+
+
+def test_primary_image_falls_back_to_lowest_sort_order(properties):
+    from apps.properties.models import PropertyImage
+
+    PropertyImage.objects.create(property=properties["p2"], file_path="b.svg", sort_order=1)
+    PropertyImage.objects.create(property=properties["p2"], file_path="a.svg", sort_order=0)
+    response = APIClient().get("/properties", {"property_type": "House"})
+    assert response.json()[0]["primary_image"].endswith("/media/a.svg")
+
+
+def test_property_without_images_has_null_primary_image(properties):
+    response = APIClient().get("/properties", {"property_type": "House"})
+    assert response.json()[0]["primary_image"] is None
+
+
+def test_detail_returns_ordered_images_and_description(properties):
+    from apps.properties.models import PropertyImage
+
+    p = properties["p1"]
+    p.description = "Lovely."
+    p.save()
+    PropertyImage.objects.create(property=p, file_path="c.svg", sort_order=2)
+    PropertyImage.objects.create(property=p, file_path="a.svg", sort_order=0, is_primary=True)
+    PropertyImage.objects.create(property=p, file_path="b.svg", sort_order=1)
+
+    body = APIClient().get(f"/properties/{p.id}").json()
+    assert body["description"] == "Lovely."
+    assert [i["sort_order"] for i in body["images"]] == [0, 1, 2]
+    assert [i["url"].rsplit("/", 1)[-1] for i in body["images"]] == ["a.svg", "b.svg", "c.svg"]
+    assert body["images"][0]["is_primary"] is True
+
+
+def test_detail_404_for_inactive_or_missing(properties):
+    client = APIClient()
+    assert client.get(f"/properties/{properties['p4_inactive'].id}").status_code == 404
+    assert client.get("/properties/999999").status_code == 404
