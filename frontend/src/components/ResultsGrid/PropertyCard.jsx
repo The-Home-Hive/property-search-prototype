@@ -33,7 +33,7 @@ export default function PropertyCard({ property, currencyCode, onOpen }) {
 
       <div className="card__body">
         <header className="card__header">
-          <h3 className="card__title">{property.property_type}</h3>
+          <h3 className="card__title">{property.property_type} in {property.town}</h3>
           <p className="card__price">
             {formatPrice(property.price, currencyCode)}
             {property.listing_type === 'rent' && <span className="card__per"> / month</span>}
