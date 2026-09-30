@@ -50,12 +50,17 @@ class Property(models.Model):
     def title(self) -> str:
         """Display name derived from the row — there is no stored name column.
 
+        Deliberately omits ``property_type`` so the Property Type filter can be
+        verified against the field itself rather than the title text.
+
         Land and offices have no meaningful bedroom count, and studios are
         bedroom-less by definition, so only residential types get the prefix.
         """
+        place = f"{self.town.name}, {self.town.city.name}"
         prefixed = self.property_type not in {"Land", "Office", "Studio Apartment"}
-        prefix = f"{self.bedrooms}-bedroom " if prefixed and self.bedrooms else ""
-        return f"{prefix}{self.property_type} in {self.town.name}, {self.town.city.name}"
+        if prefixed and self.bedrooms:
+            return f"{self.bedrooms}-bedroom property in {place}"
+        return f"Property in {place}"
 
 
 class PropertyAmenity(models.Model):

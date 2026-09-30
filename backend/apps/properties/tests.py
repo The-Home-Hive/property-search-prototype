@@ -157,9 +157,21 @@ def test_search_result_includes_title_and_primary_image(properties):
     )
     response = APIClient().get("/properties", {"town": properties["p1"].town_id})
     result = next(r for r in response.json() if r["id"] == properties["p1"].id)
-    assert result["title"] == "3-bedroom Apartment in Westlands, Nairobi"
+    assert result["title"] == "3-bedroom property in Westlands, Nairobi"
     assert result["primary_image"].endswith("/media/properties/apartment/1.svg")
     assert result["primary_image"].startswith("http")
+
+
+def test_title_never_contains_property_type(properties):
+    land = Property.objects.create(
+        town=properties["p1"].town, listing_type="sale", property_type="Land",
+        price=1, bedrooms=0, bathrooms=0,
+    )
+    assert land.title == "Property in Westlands, Nairobi"
+    for prop in Property.objects.all():
+        # Only the part before the location; town names can contain e.g. "land".
+        name = prop.title.split(" in ")[0].lower()
+        assert prop.property_type.lower() not in name
 
 
 def test_primary_image_falls_back_to_lowest_sort_order(properties):
